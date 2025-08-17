@@ -3,7 +3,7 @@
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { ContainerTextFlip } from "@/components/ui/container-text-flip";
 import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
-import Navbar from "@/components/ui/navbar";
+import Navbar from "@/components/ui/Navbar";
 import { WavyBackground } from "@/components/ui/wavy-background";
 import WorldMap from "@/components/ui/world-map";
 import { cn } from "@/lib/utils";
