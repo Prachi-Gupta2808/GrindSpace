@@ -96,7 +96,7 @@ export async function login(req, res) {
       sameSite: "None", // prevent CSRF attacks
       secure: true,
     });
-
+      //process.env.NODE_ENV === "production"
     res.status(200).json({ success: true, user });
   } catch (error) {
     console.log("Error in login controller", error.message);

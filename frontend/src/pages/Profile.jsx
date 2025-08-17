@@ -1,7 +1,7 @@
 "use client";
 
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
-import Navbar from "@/components/ui/navbar";
+import Navbar from "@/components/ui/Navbar";
 import YourFriends from "@/components/yourFriends";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";

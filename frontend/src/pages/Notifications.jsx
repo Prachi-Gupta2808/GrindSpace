@@ -7,7 +7,7 @@ import {
 import { acceptFriendRequest, getFriendRequests } from "../lib/api";
 
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
-import Navbar from "@/components/ui/navbar";
+import Navbar from "@/components/ui/Navbar";
 import { cn } from "@/lib/utils";
 
 const Notifications = () => {

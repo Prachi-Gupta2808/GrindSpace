@@ -16,7 +16,7 @@ import {
   Window,
 } from "stream-chat-react";
 
-import Navbar from "@/components/ui/navbar";
+import Navbar from "@/components/ui/Navbar";
 import CallButton from "../components/CallButton";
 import ChatLoader from "../components/ChatLoader";
 
