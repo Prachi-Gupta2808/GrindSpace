@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: ["grind-space.vercel.app"],
     credentials: true //alow frontend to send cookies
 }))
 app.use(express.json());
