@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 app.use(cors({
-    origin: "*",
+    origin: "https://grind-space-git-main-prachig2808-8776s-projects.vercel.app",
     credentials: true //alow frontend to send cookies
 }))
 app.use(express.json());
