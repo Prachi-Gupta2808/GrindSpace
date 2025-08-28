@@ -1,11 +1,11 @@
 "use client";
 
+import { axiosInstance } from "@/lib/axios";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import React, { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Vortex } from "../ui/vortex";
-
 export const Card = React.memo(({ card, index, hovered, setHovered, onSelect }) => (
   <motion.div
     onMouseEnter={() => setHovered(index)}
