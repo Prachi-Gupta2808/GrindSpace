@@ -1,6 +1,5 @@
 "use client";
 
-import { axiosInstance } from "@/lib/axios";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import React, { useCallback, useState } from "react";
@@ -49,11 +48,10 @@ export function FocusCards({ cards }) {
     const token = localStorage.getItem("token");
 
     try {
-      await axiosInstance.post(
-        "http://localhost:5001/api/auth/choose-profile",
-        { profilePic, hasChosenProfile: true },
-        token ? { headers: { Authorization: `Bearer ${token}` } } : {}
-      );
+      await axiosInstance.post("/auth/choose-profile", {
+        profilePic,
+        hasChosenProfile: true,
+      });
       localStorage.setItem("profilePic", profilePic);
       navigate("/onboarding");
     } catch (err) {
