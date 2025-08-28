@@ -1,4 +1,4 @@
-# GrindSpace
+# GrindSpace  🚀 
 
 GrindSpace is a full-stack platform designed for students and young professionals to connect, collaborate, and share their work. It integrates real-time chat, video calls, and interactive onboarding to create a seamless networking and productivity experience.
 
