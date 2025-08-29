@@ -80,7 +80,7 @@ const YourFriends = () => {
                   <h3 className="text-2xl font-semibold">
                     {friend.fullName || friend.username}
                   </h3>
-                  <p className="text-white/70 lowercase">@{friend.username}</p>
+                  <p className="text-white/70">@{friend.username}</p>
 
                   {friend.bio && (
                     <p className="text-sm opacity-70 max-w-lg truncate">
